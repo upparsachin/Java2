@@ -19,6 +19,6 @@ steps:
     steps:
 - task: PublishPipelineArtifact@1
   inputs:
-    artifact: 'C++ Artifacts'
+    artifact: 'Java Artifacts'
     publishLocation: 'pipeline'
   displayName: 'Publish Artifacts'
